@@ -1,6 +1,6 @@
 @import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/variables";
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 :root {
   --map-tiles-filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg)
     saturate(0.3) brightness(0.7);
@@ -21,19 +21,19 @@ code {
 }
 
 h1 {
-  font-family: News Cycle;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
-  font-family: News Cycle;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h5 {
-  font-family: News Cycle;
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
-  font-family: News Cycle;
+  font-family: 'Montserrat', sans-serif;
 }
 
 blockquote {
@@ -55,6 +55,7 @@ pre {
 .header {
   font-family: "Playfair Display", serif;
   font-weight: 900;
+  
   font-size: 80px;
   text-transform: uppercase;
   display: inline-block;
