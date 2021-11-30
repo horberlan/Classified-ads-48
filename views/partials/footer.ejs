@@ -18,7 +18,6 @@
           <li class="w-auto mb-1 d-flex justify-content-center justify-content-sm-start"><a class="link-secondary text-decoration-none" href="https://github.com/bacloud14/classified-ads-48">🐛 Report an issue</a></li>
           <li class="w-auto mb-1 d-flex justify-content-center justify-content-sm-start"><a class="link-secondary text-decoration-none" href="https://www.paypal.com/donate?hosted_button_id=LF4ZVKCQ6GWWW">🎗 Donate</a></li>
           <li class="w-auto mb-1 d-flex justify-content-center justify-content-sm-start"><a class="link-secondary text-decoration-none" href="https://github.com/bacloud14/" target="_blank" rel="noreferrer noopener">Made by bacloud14</a></li>
-          <li class="w-auto mb-1 d-flex justify-content-center justify-content-sm-start"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
         </ul>
       </div>
       <div class="col-sm-4 col-md-3 d-flex flex-wrap align-content-start justify-content-center justify-content-sm-start">
@@ -51,3 +50,22 @@
       </div>
     </div>
   </footer>
+  <script>
+    // text type
+    const app = document.getElementById("app");
+    
+    const typewriter = new Typewriter(app, {
+      loop: false,
+      delay: 75
+    });
+    
+    typewriter
+      .pauseFor(2500)
+      .typeString("Classified-ads-<strong>48</strong>")
+      .pauseFor(300)
+      .deleteChars(3)
+      .typeString('<strong> <span style="color: #FE2323;">-48</span></strong>')
+      .pauseFor(1000)
+      .start();
+    
+  </script> 

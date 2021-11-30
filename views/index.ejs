@@ -13,14 +13,14 @@
   <%- include('partials/navbar'); %>
   <div class="container">
     <div class="jumbotron py-3">
-      <h1 class="display-4 text-center sm:text-left anima"><%= title %></h1>
+      <h1 class="display-4 text-center sm:text-left anima" id="app"></h1>
       <p class="text-center sm:text-left">Welcome to <%= title %></p>
     </div>
     <div id="delimitations-map" ></div>
 
     <div class="search d-flex py-4">
       <div class="mx-auto mx-lg-0">
-        <label class="mb-1 sm:mb-0" for="qsearch">Highlight listings</label>
+        <label class="text-centermb-1 sm:mb-0" for="qsearch">Highlight listings</label>
         <input type="qsearch" name="qsearch" placeholder="Today listings" required>  
       </div>
     </div>
