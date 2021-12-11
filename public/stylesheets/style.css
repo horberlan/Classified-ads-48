@@ -20,7 +20,7 @@ body {
 
   background: linear-gradient(300deg,#e1e1e1,#222222,#e13c2b);
   background-size: 180% 180%;
-  animation: gradient-animation 12s ease infinite;
+  animation: gradient-animation 50s ease infinite;
 }
 
 @keyframes gradient-animation {
@@ -47,19 +47,11 @@ code {
   opacity: 75%;
 }
 
-h1 {
+h1,h2,h3,h4,h5,h6 {
   font-family: 'Montserrat', sans-serif;
-}
 
-h3 {
-  font-family: 'Montserrat', sans-serif;
 }
-
-h5 {
-  font-family: 'Montserrat', sans-serif;
-}
-
-p {
+p,a,small {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -131,7 +123,7 @@ pre {
 
 .card:hover {
   background-color: #cccccc;
-  -webkit-transition: background-color 1000ms linear;
+  -webkit-transition: background-color 600ms linear;
   -ms-transition: background-color 1000ms linear;
   transition: background-color 1000ms linear;
   box-shadow: 0 4px 8px 0 #FE2323; 
@@ -495,3 +487,40 @@ details:nth-of-type(5) {
 }
 
 /*# sourceMappingURL=style.css.map */
+.link-secondary,.text-muted{
+  color:#FE2323;
+}
+input,.form-control {
+  
+  outline: 0;
+  border-width: 0 0 2px;
+  background-color: #222222;
+  
+}
+input::placeholder{
+  color:#f1f1f1;
+}
+.search{
+  align-items: center;
+  text-align: center;
+  
+}
+
+.form-control, input:focus {
+  border-color: #FE2323;
+  transition:1s;
+}
+.text-centermb-1{
+  color:#f1f1f1;
+  border-bottom: 2px #f1f1f1 solid;
+  border-width: 0 0 2px;
+  border-color: #f1f1f1;
+}
+.text-centermb-1:hover{
+  border-bottom: 2px #FE2323 solid;
+  transition:1s;
+}
+.lock{
+  width:20px;
+  height:20px;
+}

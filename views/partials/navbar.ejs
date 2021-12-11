@@ -34,13 +34,13 @@
                     </select>
                 </li>
                 <% if(typeof user == 'undefined'){ %>
-                    <li class="nav-item px-xl-2"><a class="nav-link" data-trans="(login)" href="/login">Login 🔒</a></li>
+                    <li class="nav-item px-xl-2"><a class="nav-link" data-trans="(login)" href="/login">Login <img class="lock"src="https://img.icons8.com/color/48/000000/lock--v2.png"/></a></li>
                 <% } else { %>
                     <li class="nav-item px-xl-2"><a class="nav-link" href="/listings/user">Welcome <%= user.nickname %></a></li>
                 <% }%>
             </ul>
             <form class="form-inline p-0 mx-auto mt-xl-0" style="max-width:400px">
-                    <input id="autoComplete" class="form-control w-100" type="search" dir="ltr" spellcheck=false autocorrect="off" autocomplete="off"
+                    <input id="autoComplete" class="form-control mr-sm-2" type="search" dir="ltr" spellcheck=false autocorrect="off" autocomplete="off"
                         autocapitalize="off">
             </form>
         </div>
